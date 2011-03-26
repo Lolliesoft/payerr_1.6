@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Clicks:</b>
+  <%= @dashboard.clicks %>
+</p>
+
+<p>
+  <b>Webiste:</b>
+  <%= @dashboard.website %>
+</p>
+
+
+<%= link_to 'Edit', edit_dashboard_path(@dashboard) %> |
+<%= link_to 'Back', dashboards_path %>
