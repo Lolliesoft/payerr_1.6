@@ -1,4 +1,6 @@
 Payerr::Application.routes.draw do
+  resources :profiles
+
   resources :profiles , :path => "/profile"
 
   devise_for :users, :path_names => { :sign_up => "register" }

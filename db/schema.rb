@@ -10,11 +10,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110325024255) do
+ActiveRecord::Schema.define(:version => 20110327172414) do
 
   create_table "dashboards", :force => true do |t|
     t.integer  "clicks"
     t.string   "website"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "profiles", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "clicks"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>User</th>
+    <th>Clicks</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,6 +12,7 @@
 <% @profiles.each do |profile| %>
   <tr>
     <td><%= profile.user_id %></td>
+    <td><%= profile.clicks %></td>
     <td><%= link_to 'Show', profile %></td>
     <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
     <td><%= link_to 'Destroy', profile, :confirm => 'Are you sure?', :method => :delete %></td>
