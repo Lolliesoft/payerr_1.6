@@ -1,6 +1,11 @@
-Payerr.com Alpha 1.5
-Mar 26, 2011
-=====================================================================================================================================================
+Payerr.com
+Mar 27, 2011  Alpha 1.5.1
+=======================================================================================================================
+-add clicks to profile model
+-added api.payerr.com subdomain
+
+Mar 26, 2011  Alpha 1.5
+=======================================================================================================================
 -username and email login authentication functionality with Devise setup
 -barebones scaffold setup for future dashboard implementation
 -added profile model
